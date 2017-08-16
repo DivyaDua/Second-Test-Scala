@@ -30,7 +30,9 @@ trait Accounts {
     if(booleanList.contains(true)){
       val positon = booleanList.indexOf(true)
       val mobileNumber = listForValidation.toList(positon)._1
-      userName + mobileNumber.toString
+      val accessToken = userName + mobileNumber.toString
+      UserDatabase.userAccessToken += (mobileNumber -> accessToken)
+      accessToken
     }
     else{
       "\0"

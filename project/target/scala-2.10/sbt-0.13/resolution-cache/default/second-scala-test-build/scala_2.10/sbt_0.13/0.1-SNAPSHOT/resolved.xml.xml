@@ -4,7 +4,7 @@
 		module="second-scala-test-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170816171405"
+		publication="20170816184858"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

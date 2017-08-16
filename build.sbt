@@ -1,11 +1,8 @@
-lazy val common = Seq {
-  name := "Second-Scala-Test"
-  version := "1.0"
-  scalaVersion := "2.12.3"
-  libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.3" % "test"
-}
+lazy val common = Seq(version := "1.0",
+  scalaVersion := "2.12.2",
+  libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.3" % "test")
 
-lazy val Accounts = project.settings(libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.3" % "test")
+lazy val Accounts = project.settings(common)
 
 lazy val Api = project.dependsOn(Accounts, Checkout, Inventory, Notification).settings(common)
 

@@ -19,4 +19,14 @@ class AccountsTest extends AsyncFunSuite with Accounts{
     result map(r => assert(r === "Mobile number is already registered!"))
   }
 
+  test("testing authenticate account method that returns an access token"){
+    val result = authenticateUser("divyadua", "divya1")
+    result map(r => assert(r === "divyadua8130212805"))
+  }
+
+  test("testing authenticate account method that does not return an access token"){
+    val result = authenticateUser("divyadua", "div12")
+    result map(r => assert(r === "\0"))
+  }
+
 }
