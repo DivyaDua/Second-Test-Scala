@@ -15,7 +15,7 @@ class AccountsTest extends AsyncFunSuite with Accounts{
   }
 
   test("testing add User method for already registered mobile number"){
-    val result = addUser("Neha", "Dua", 8130212805L, "nehadua", "neha1", "neha2")
+    val result = addUser("Neha", "Dua", 8130212805L, "nehadua", "neha1", "neha1")
     result map(r => assert(r === "Mobile number is already registered!"))
   }
 
