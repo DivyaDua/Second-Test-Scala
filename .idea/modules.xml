@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Accounts/Accounts.iml" filepath="$PROJECT_DIR$/Accounts/Accounts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Accounts-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Accounts-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Api/Api.iml" filepath="$PROJECT_DIR$/Api/Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Checkout/Checkout.iml" filepath="$PROJECT_DIR$/Checkout/Checkout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Checkout-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Checkout-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dashboard/Dashboard.iml" filepath="$PROJECT_DIR$/Dashboard/Dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dashboard-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Dashboard-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inventory/Inventory.iml" filepath="$PROJECT_DIR$/Inventory/Inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Inventory-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Inventory-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Notification/Notification.iml" filepath="$PROJECT_DIR$/Notification/Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Notification-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Notification-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+    </modules>
+  </component>
+</project>
